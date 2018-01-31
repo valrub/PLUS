@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+            width: 250px;
+        }
+
+       
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: #82b29c; "><span style="color: #ffffff;">VERINT WEBINT(7) PLUS REPORT</span></h1>
+    <div class="rxbodyfield">
+        <h2 style="color: #5e9ca0;"><span style="color: #800080; background-color: #ffff99;">{CurrentDate}</span></h2>
+        <h2 style="color: #2e6c80;">WEBINT(7) PLUS reported&nbsp;these web flows&nbsp;as problematic:</h2>
+        <p>
+            <table>
+                {ReportBody}
+            </table>
+        </p>
+        <p><strong>Please, see <a title="WEBINT WEB FLOWS TESTING SYSTEM" href="http://10.161.58.83/WFT7">http://10.161.58.83/WFT7</a>&nbsp;for additional details </strong></p>
+        <p>&nbsp;</p>
+        <p>For more details and questions please contact <a title="Valentin Rubenchik" href="mailto:valentin.rubenchik@verint.com">Valentin Rubenchik</a>.</p>
+        <h4>&nbsp;</h4>
+        <h4>Regards,</h4>
+        <h3>Webint Managed Services Team</h3>
+    </div>
+    <div style="color: #ffffff; background-color: #82b29c; width:auto">
+        Copyright &copy; 2016 Verint Systems Inc. All rights reserved worldwide
+    </div>
+    
+</body>
+</html>
